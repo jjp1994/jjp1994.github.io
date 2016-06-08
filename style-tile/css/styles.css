@@ -1,0 +1,105 @@
+/* Color Palette */
+.color-1{
+    background: red;
+}
+.color-2{
+    background: blue;
+}
+.color-3{
+    background: green;
+}
+.color-4{
+    background: orange;
+}
+
+/* textures*/
+.pattern-1 {
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/78/7a/cf/787acf5230aa7ba10152882cb59df346.jpg");
+    background-size: cover;
+}
+.pattern-2{
+    background: url("http://valleysinthevinyl.com/packs-preview/VV_CoolBlueTextures/01.jpg");
+    background-size: cover;
+}
+.pattern-3{
+    background: url("http://avvs.co/wp-content/uploads/2015/11/green-paint-texture-simple-decor-11-on-paint-design-ideas.jpg");
+    background-size: cover;
+
+}
+/*images*/
+.imagery-1 img{
+    background: url(../img/starbucks.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 0px green,
+                -10px -10px 10px red,
+                15px 15px 20px blue,
+                20px 5px 5px orange;
+    width: 300px;
+}
+/*icons*/
+.icon-1 {
+    background: url(../img/iconmonstr-email-3-240.png);
+    background-size: 100px;
+    border: none;
+    
+}
+
+.icon-2 {
+    background: url("../img/iconmonstr-facebook-like-1-240.png");
+    background-size: 100px;
+    border: none;
+}
+
+.icon-3 {
+    background: url("../img/iconmonstr-home-6-240.png");
+    background-size: 100px;
+    border: none;
+    
+}
+/*navigation*/
+
+nav li {
+    list-style: none;
+    float: left;
+    background: red;
+    
+}
+nav li:hover {
+    margin-top: 10px;
+}
+nav a:link {
+    background: orange;
+    border-bottom: 2px solid green;
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+nav a:visited {
+color: white;    
+    
+    
+}
+
+nav a:hover {
+    background: white;
+    color: aqua;
+    margin-top: 10px;
+}
+
+nav a:active {
+    background: black;
+   
+}
+
+nav a:forms {
+    border: 10px solid green;
+    
+}
+
+
+
+
+
